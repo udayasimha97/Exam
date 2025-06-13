@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
 import "./ImageGallery.css";
-import LazyImage from "../lazyImage/LazyImage";
+import LazyImage from "../lazyImage/LazyImage.jsx";
 
 const ImageGallery = () => {
   const [images, setImages] = useState([]);
